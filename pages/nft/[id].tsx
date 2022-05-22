@@ -51,7 +51,7 @@ const NftPage = () => {
 
         {address && (
           <p className="text-center text-sm text-rose-500">
-            You're logged in with wallet {address.substring(0, 5)}...
+            You&rsquo;re logged in with wallet {address.substring(0, 5)}...
             {address.substring(address.length - 5)}
           </p>
         )}
